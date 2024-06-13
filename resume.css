@@ -1,20 +1,10 @@
-:root {
-  --bg-color: white;
-  --text-color: black;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 body {
   font-family: 'Arial', sans-serif;
-  color: var(--text-color);
-  background-color: var(--bg-color);
+  color: white;
+  background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%);
+  background-size:cover;
 }
-
-body.dark-mode {
-  --bg-color: black;
-  --text-color: white;
-}
-
-/* Rest of your CSS */
 
 .resume {
   width: 800px;
@@ -24,12 +14,12 @@ body.dark-mode {
 .section {
   margin-bottom: 20px;
   margin-top: 1rem;
+ margin-top:  1rem;
 }
 
-li {
+li{
   margin-top: 0.5rem;
 }
-
 .links-section {
   margin-left: 1rem;
 }
@@ -51,7 +41,6 @@ a {
   border-bottom: 1px solid #000;
   margin-bottom: 10px;
 }
-
 .contact-info,
 .profile,
 .skills,
@@ -77,11 +66,12 @@ a {
   align-items: center;
 }
 
+
 .p, .li {
   line-height: 10px;
 }
 
-.bold {
+bold {
   font-weight: bold;
 }
 
@@ -98,13 +88,10 @@ a {
   height: 2em;
   bottom: 1.2rem;
 }
-
 @media only screen and (max-width: 700px) {
   #intro h1 {
     font-size: 39px;
-  }
-}
-
+  }}
 /* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
@@ -148,7 +135,9 @@ input:checked + .slider:before {
   box-shadow: inset 15px -4px 0px 15px #fff000;
 }
 
+
 .btn-shine {
+  /* transform: translate(-50%, -50%); */
   color: #fff;
   background: linear-gradient(to right, #9f9f9f 0, #fff 10%, #868686 20%);
   background-position: 0;
@@ -162,10 +151,9 @@ input:checked + .slider:before {
   font-size: 30px;
   text-decoration: none;
   white-space: nowrap;
-  text-transform: uppercase;
   font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
 }
-
 @-moz-keyframes shine {
   0% {
     background-position: 0;
@@ -177,7 +165,6 @@ input:checked + .slider:before {
     background-position: 5465px;
   }
 }
-
 @-webkit-keyframes shine {
   0% {
     background-position: 0;
@@ -189,7 +176,6 @@ input:checked + .slider:before {
     background-position: 5465px;
   }
 }
-
 @-o-keyframes shine {
   0% {
     background-position: 0;
@@ -201,7 +187,6 @@ input:checked + .slider:before {
     background-position: 5465px;
   }
 }
-
 @keyframes shine {
   0% {
     background-position: 0;
