@@ -3,6 +3,12 @@ const body = document.querySelector("body");
 const links = document.querySelectorAll("a");
 let isDarkMode = true;
 
+const scroll = new LocomotiveScroll({
+  el: document.querySelector('.resume'),
+  smooth: true
+});
+
+
 button.addEventListener("click", function (e) {
   if (isDarkMode) {
     body.style.background =
