@@ -9,6 +9,7 @@ body {
 .resume {
   width: 800px;
   margin: auto;
+  padding-bottom: 30px;
 }
 
 .section {
